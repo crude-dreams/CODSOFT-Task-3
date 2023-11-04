@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito+Sans:opsz,wght@6..12,700&family=Oswald:wght@500&display=swap');
+body{
+    background-color: #08AEEA;
+background-image: linear-gradient( to right, #006663 , #696666);
+}
+.container{
+    max-width: 600px;
+    margin-left:31% ;
+    margin-right: auto;
+    padding-top: 20px;
+    margin-right: 31%;
+    display:grid;
+}
+h2{
+    text-align: center;
+    font-size: 65px;   
+    font-family: 'Libre Baskerville', serif;
+    color: rgba(57, 164, 252, 0.897);
+    border-bottom: 5px solid ;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row input{
+    width: 300px;
+    padding: 8px;
+    border: 2px solid black;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    cursor: text;
+    border-radius: 10px;
+    background-color: rgb(231, 194, 194);
+    box-shadow: inset 0px 1px 10px 0px black;
+}
+.btn{
+    text-align: center;
+    align-items: center;
+    width: 85px;
+    padding: 8px;
+    border: 2px solid black;
+    position: relative;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(231, 194, 194);
+    box-shadow: inset 0px 1px 10px 0px black;
+    
+}
+.btn:hover{
+    text-align: center;
+    align-items: center;
+    width: 85px;
+    padding: 8px;
+    border: 2px solid black;
+    position: relative;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+#d:hover{
+    text-align: center;
+    align-items: center;
+    width: 85px;
+    padding: 8px;
+    border: 2px solid black;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: red;
+}
+#content{
+    max-width: 600px;
+}
+#content p{ 
+    margin-left: 25px;
+    text-align: left;
+    font-size: 25px;
+    
+}
+#content button{
+    background-image: url("delete.png");
+    margin-right: 20px;
+    float: right;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 7px;
+    border: none;
+    background-color: transparent;
+}
+
+#content span{
+    background-image: url("edit.png");
+    margin-right: 10px;
+    float: right;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    height: 32px;
+    width: 30px;
+    border-radius: 7px;
+    border: none;
+    background-color: transparent;
+}
+
+
+
